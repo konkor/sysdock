@@ -1,0 +1,16 @@
+{
+  "description": "Notifications sidebar\n\nFor more information and how-to see README.md",
+  "name": "notifytodock",
+  "settings-schema": "notifytodock",
+  "shell-version": [
+    "3.14",
+    "3.16",
+    "3.18",
+    "3.20",
+    "3.22",
+    "3.24",
+    "3.26"
+  ],
+  "url": "https://github.com/",
+  "uuid": "notifytodock@konkor"
+}
