@@ -1,7 +1,7 @@
 {
   "description": "Notifications sidebar\n\nFor more information and how-to see README.md",
-  "name": "notifytodock",
-  "settings-schema": "notifytodock",
+  "name": "sysdock",
+  "settings-schema": "sysdock",
   "shell-version": [
     "3.14",
     "3.16",
@@ -12,5 +12,5 @@
     "3.26"
   ],
   "url": "https://github.com/",
-  "uuid": "notifytodock@konkor"
+  "uuid": "sysdock@sysdock"
 }

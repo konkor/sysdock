@@ -26,12 +26,14 @@ notificationTitle.forEach(function(title) {
     notifications.push(notification);
 });
 
+let id = 100;
 notifications.forEach(function (notification) {
-    let rndNb = (1 + Math.floor(Math.random() * 6));
-    for (let i=1; i<rndNb; i++) {
+    let rndNb = 7;//(1 + Math.floor(Math.random() * 6));
+    id++;
+    for (let i=1; i<=rndNb; i++) {
     try {
         notification.body = "This is the notification number " + i + " from " + notification.app_name;
-        notification.id = rndNb;
+        notification.id = id;
         notification.show();
     } catch(e) {
         log(e)

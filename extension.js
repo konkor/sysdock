@@ -16,7 +16,7 @@ const NotifyIndicator = new Lang.Class({
     _init: function () {
         this.parent (0.0, "Notifications Indicator", false);
 
-        this.status = new St.Label ({text: "0", y_expand: true, y_align: 2});
+        this.status = new St.Label ({text: "⚫", y_expand: true, y_align: 2});
         let _box = new St.BoxLayout();
         _box.add_actor(this.status);
         this.actor.add_actor (_box);
